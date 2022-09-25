@@ -19,7 +19,7 @@ def what_quarter(a, b):
     elif a == 0 and b != 0:
         print('This is an Axis Y')
     elif b == 0 and a != 0:
-        print('This is an Axis X')
+        print('This is an Axis X')        
     elif a == 0 and b == 0:
         print('This is the center of coordinate')
 
@@ -28,4 +28,3 @@ x = float(input('Enter number X: '))
 y = float(input('Enter number Y: '))   
 
 what_quarter(x, y)
-
